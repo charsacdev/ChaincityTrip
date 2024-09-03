@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+
+.content {
+  padding: 7rem 0; 
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.custom-table {
+  min-width: 900px; 
+  border:0px solid green;
+  padding:10px 0px;
+  box-sizing: border-box;
+  border-collapse: separate !important;
+  border-spacing: 10px !important;
+  font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-table thead tr, .custom-table thead th {
+    border-top: none;
+    border-bottom: none !important;
+    background-color:#F3F3F3;
+    color:#585858;
+    border:0px solid green;
+
+
+  }
+
+  .custom-table tbody th, .custom-table tbody td {
+    color: #585858;
+    padding:10px !important;
+    box-sizing: border-box;
+    font-weight: 500; 
+    border:0px !important;
+  }
+
+  .custom-table tbody td:last-child{
+    text-align:right
+  }
+
+.custom-table tbody td span{
+      color: #2390e0;
+      font-weight:bold; 
+      background: #e1f5f2;
+      border-radius:15px;
+      padding:7px 15px !important
+
+}
+ 
+  .custom-table tbody tr th, .custom-table tbody tr td {
+    position: relative;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+
+   }
+    .custom-table tbody tr th:before, .custom-table tbody tr th:after, .custom-table tbody tr td:before, .custom-table tbody tr td:after {
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      content: "";
+      left: 0;
+      right: 0;
+      position: absolute;
+      height: 1px;
+      background: #bfbfbf;
+      width: 100%;
+      opacity: 0;
+      visibility: hidden; 
+    }
+    
+
+

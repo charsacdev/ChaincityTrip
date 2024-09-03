@@ -1,0 +1,548 @@
+/*------------------------------------------------------------------------------------
+                            CHAIN CITY HOMEPAGE CSS
+------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+.home-div-container{
+	width:100%;
+	height:100vh;
+	background-image: url('../asset/homebg.png');
+	background-position: center;
+	position: relative;
+	border:0px solid red;
+
+}
+
+.radiant-bg{
+   position: absolute;
+   top:0px;
+   left:0px;
+   right:0px;
+   bottom:0px;
+   background-color: rgba(0,0,0,0.8);
+}
+
+.home-content-bg{
+	margin:200px 0px;
+	border:0px solid green;
+}
+
+.home-content-bg h1{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+	color:#fff;
+	font-size:50px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.home-content-bg p{
+	color:#fff;
+	font-size:18px;
+	text-align: center;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*--------Menu bar-------*/
+.access a button,.access a button:hover{
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+	color:#fff !important;
+	font-weight:600;
+	font-size:18px;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*----------Listing-----------------*/
+.listing {
+	background-color:#fff;
+	border-radius:5px;
+	padding:10px 5px;
+	box-sizing: border-box;
+	border:0px solid green;
+	margin: auto;
+}
+
+.listing aside{
+	border:0px solid green;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.listing aside label{
+	font-weight: bold;
+	margin:0px 0px;
+}
+
+.listing aside select{
+	width:100%;
+	color:gray;
+	background-color:#fff !important;
+	border:0px !important;
+	margin:6px 0px
+}
+
+
+.btn-search,.btn-search:hover{
+	width:100%;
+	height:60px;
+	margin:auto;
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+}
+
+
+/*-------------------------- MEDIA SCREEN FOR LISTING HEADER AND NAVIGATION-----------------*/
+@media screen and (max-width:640px){
+	.home-content-bg{
+		margin:100px 0px;
+		border:0px solid green;
+	   }
+
+	   .home-content-bg h1{
+		/*font-family: Nohemi;*/
+		color:#fff;
+		font-size:40px;
+		font-weight: 700;
+		text-align: center;
+     }
+
+     .listing aside{
+     	border-bottom:1px solid gray
+     }
+
+     .navbar-collapse{
+     	background-color:rgba(0,0,0,0.9)!important;
+     	padding:10px;
+     	box-sizing: border-box;
+     	border-radius:9px
+     }
+}
+
+
+
+/*===============================HOME INTRO=============================*/
+.home-intro section{
+   border:0px solid green;
+   position: relative;
+}
+
+.home-intro section h2{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+
+}
+
+.home-intro section div aside h4{
+	color:#D80450;
+	font-weight: bold;
+}
+
+.home-intro section:nth-child(1){
+	margin-top:50px;
+}
+
+.home-intro img:nth-child(1){
+   width:56%;
+   height:400px;
+
+}
+
+.home-intro img:nth-child(2){
+   width:50%;
+   height:400px;
+   position: absolute;
+   top:100px;
+   left:30px;
+
+}
+
+@media screen and (max-width:900px){
+	.home-intro{
+       margin-top:9rem
+	}
+
+	.home-intro img:nth-child(1){
+	    width:65% !important;
+		height:350px;
+	}
+
+	.home-intro img:nth-child(2){
+	   width:65%;
+	   height:300px;
+	   position: absolute;
+	   top:70px;
+	   left:0px;
+	  }
+}
+
+
+/*==========================POPULAR RESIDENT=============================*/
+.popular-resident{
+	border:0px solid green;
+	margin-top:80px;
+}
+
+.popular-resident h3{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*====================TESTIFY==================*/
+.Testify{
+	border:0px solid green;
+}
+
+.Testify h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Testify div section{
+	border:0px solid blue;
+	background-color:#fbfefe;
+	box-shadow: 1px 3px 5px gray;
+	border-radius:9px
+}
+
+.Testify div section aside img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+
+.Testify div section aside div{
+	width: 100%;
+}
+
+.Testify div section h5{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.Testify div section aside div h5{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*==================LATEST NEWS AND UPDATE=========================*/
+.latest{
+	height:550px;
+	margin-top:50px;
+	background-image: url('../asset/latest.png');
+	background-position: center;
+	position: relative;
+}
+
+.lastet-content{
+	margin:13% 0px;
+	border:0px solid green;
+}
+
+.lastet-content h1{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-size:60px;
+    font-weight:bold;
+    text-align: center;
+    color:#fff;
+    margin-bottom:50px
+}
+
+.lastet-content section{
+	/*width:100%;*/
+	border:0px solid green;
+	height:70px;
+	border-radius:9px;
+	background-color:#fff
+}
+
+.lastet-content section input{
+	border:0px;
+	border-radius:9px;
+	width:100%;
+	height:50px;
+	outline: 0px;
+	text-indent: 20px;
+}
+
+.lastet-content section button{
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    height:50px;
+    float:right;
+    border-radius:9px;
+    padding:10px 15px;
+}
+
+
+@media screen and (max-width:640px){
+	.latest{
+		height:380px;
+	}
+	.lastet-content h1{
+		font-size:44px;
+	   
+	  }
+}
+
+
+
+/*================Footer======================*/
+.footer{
+	border:0px solid green;
+}
+
+.footer section{
+	border:0px solid red;
+	text-align: center;
+}
+
+.footer section aside{
+	border:0px solid green;
+}
+
+.footer section ul{
+	text-align: center !important;
+	list-style-type: none;
+	padding:0px !important
+}
+
+.footer section ul li{
+	display:inline-block;
+}
+
+.footer section ul li i,.footer section ul li{
+	color:#D80450 !important;
+	font-size:15px !important
+}
+
+
+
+
+/*================================ABOUT US PAGE===========================*/
+.services{
+	border:0px solid green;
+	margin-top:50px;
+}
+
+.services-content{
+	background-color:#101928;
+	border-radius:9px
+
+}
+
+.services-content section h1{
+	color:#fff;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:40px
+}
+
+.services-content div section h5{
+	color:#fff;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.services-content div section p,.services-content section p{
+	color:#fff;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight:100px;
+    font-size:13px
+}
+
+
+/*--media screen for about and contact page*/
+@media screen and (max-width:640px){
+   .about-others{
+   	  height:400px !important
+   }
+}
+
+/*====================TEAM==================*/
+.Team{
+	border:0px solid green;
+	background-color:#101928;
+}
+
+.Team h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+}
+
+.Team div section{
+	border:0px solid blue;
+	/*background-color:#fbfefe;*/
+	/*box-shadow: 1px 3px 5px gray;*/
+	border-radius:9px
+}
+
+.Team div section aside img{
+	width:100%;
+	height:300px;
+	border:1px solid gray;
+	border-radius:9px
+}
+
+.Team div section aside div{
+	width: 100%;
+}
+
+.Team div section h5,.Team div section p{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#fff;
+}
+
+.Team div section aside div h5{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/*=======================================CONTACT PAGE CSS============================*/
+.contact-page form{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+}
+
+.i-group-div{
+	border:1px solid #cbd3d3;
+	height:60px;
+	border-radius:9px
+}
+
+.i-group-div span{
+	background-color:#fff;
+	border:0px;
+}
+
+.i-group-div input{
+	background-color:#fff;
+	border:0px;
+}
+
+
+.contact-page form button,.contact-page form button:hover{
+	width:100%;
+	height:60px;
+	margin:auto;
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+}
+
+
+
+/*=======================FAQ=======================================*/
+
+.faq{
+	border:0px solid green;
+	margin-top:50px;
+}
+
+.faq-content{
+	background-color:#fff;
+	border-radius:9px
+
+}
+
+.faq-content section h1{
+	color:#000;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:40px
+}
+
+.faq-content div section h5{
+	color:#000;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.faq-content div section p,.faq-content section p{
+	color:gray;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight:100px;
+    font-size:15px
+}
+
+.moreq{
+	border:0px solid green;
+	background-color:#fff;
+	height:100px !important;
+	margin:0px
+}
+
+
+.moreq section{
+	/*width:100%;*/
+	border:0px solid green;
+	height:auto;
+	border-radius:9px;
+	background-color:#101928
+}
+
+.moreq section p{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.moreq section button{
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    height:50px;
+    float:right;
+    border-radius:9px;
+    padding:10px 15px;
+    float: right
+}
+
+
+@media screen and (max-width:640px){
+	.moreq{
+		height:380px;
+	}
+	.moreq h1{
+		font-size:44px;
+	   
+	  }
+}

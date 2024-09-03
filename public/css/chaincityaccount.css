@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+
+/*=============================CHAIN CITY ACCOUNT=====================================*/
+.accounts{
+	border:0px solid green;
+	height:auto;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+.accounts div section{
+	border:0px solid red;
+	height:auto;
+}
+
+.accounts div section:nth-child(1){
+	background-image: url('../../asset/img/accounts.png');
+	background-position:100% 100%;
+	position: relative;
+	background-size:100% 100%;
+	filter: grayscale(100%);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.mySwiper{
+	width:400px !important;
+	height:450px !important;
+	position: absolute !important;
+	bottom:50px;
+	left:50px;
+	right:50px;
+	border:0px solid green !important;
+	border-radius:30px;
+	background-color:#282828
+}
+
+.swiper-wrapper{
+	border:1px solid green !important;
+	
+}
+
+.swiper-wrapper i{
+	font-size:50px;
+	margin:20px 0px 0px 0px !important;
+	color:#fff;
+}
+
+
+
+/*-------------------------Register User------------------------*/
+.form-account form{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+}
+
+.i-group-div{
+	border:2px solid #cbd3d3;
+	height:60px;
+	border-radius:9px
+}
+
+.i-group-div span{
+	background-color:#fff;
+	border:0px;
+}
+
+.i-group-div span i{
+	color: gray !important;
+}
+
+.i-group-div input{
+	background-color:#fff;
+	border:0px;
+}
+
+
+.form-account form button, .form-account form button:hover{
+	width:100%;
+	height:60px;
+	margin:auto;
+	background-color: #D80450;
+	color:#fff;
+	border:0px;
+}
+
+
+.form-account fieldset{
+	border-width:2px 0px 0px 0px;
+	border-style:solid;
+	border-color:#e3e6e6;
+	text-align:center;
+	margin-top:30px;
+	position: relative;
+}
+
+.form-account fieldset legend{
+   margin-top:-20px;
+   border:0px solid green;
+}
+
+.form-account fieldset legend span{
+	background:#fff
+}
+
+.form-account fieldset button{
+	width:100%;
+	height:45px;
+	border-radius:9px;
+	background-color:#fff;
+	border:2px solid #b9bdbd;
+	font-weight:bold
+}

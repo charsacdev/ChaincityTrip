@@ -1,0 +1,592 @@
+/*======================DASHBOARD CSS FOR CHAINCITY=================================*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+
+/*========NAV DASHBOARD DESIGNS=========*/
+nav{
+	border:0px solid green;
+	height:70px;
+	border-bottom:1px solid #abb2af
+}
+
+nav div section aside{
+	border:0px solid blue;
+	height:70px
+}
+
+.input-group-nav{
+	border:1px solid #abb2af;
+	border-radius:7px
+}
+
+.input-group-nav input{
+	border:0px;
+}
+
+.input-group-nav input:focus{
+	border:0px;
+	outline:0px;
+	box-shadow:0px;
+}
+
+.input-group-nav span{
+   background-color:inherit;
+   border:0px;
+}
+
+nav div section aside ul{
+	list-style: none
+}
+
+nav div section aside ul li{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    color:#D80450;
+}
+
+nav div section aside button{
+	border:1px solid gray;
+	border-radius:30px;
+	width:130px !important;
+	height:50px;
+	background-color:#fff
+}
+
+nav div section aside button aside:nth-child(1){
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:0px solid green;
+	color:#fff;
+	background-color:#D80450
+}
+
+nav div section aside button aside:nth-child(2) span{
+  font-size:10px;
+}
+
+
+/*-------Agent Dashboard---------*/
+.agent-verify-profile-image{
+	width:100%;
+	height:200px;
+	border:1px solid gray
+}
+
+
+/*================POPULAR SEARCHES===================*/
+
+
+/*===================================NEW RESEVERVATION BOOKING==============================*/
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----house listing ul---*/
+.house-details-ul{
+	border-bottom:1px solid gray;
+	margin:20px 0px 0px 0px;
+	list-style: none;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+/*--offer ul----*/
+.offers-ul{
+	border-bottom:1px solid gray;
+	margin:20px 0px 0px 0px;
+	list-style: none;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.offers-ul li{
+	padding:3px;
+	box-sizing: border-box;
+}
+
+.check-holder{
+	border:0px solid green;
+	height:auto !important;
+}
+
+.check-holder div{
+	border:0px solid gray;
+	border-radius:12px;
+	box-shadow: 1px 2px 10px gray
+}
+
+.check-holder div aside input{
+	border:0px;
+	width:100%;
+}
+
+.check-holder div aside input:focus{
+	border:0px;
+	outline:0px;
+}
+
+.checks-ul li:nth-child(1){
+	border:1px solid gray !important;
+	border-radius:9px 9px 0px 0px;
+}
+
+.checks-ul li:nth-child(2){
+	border:1px solid gray !important;
+	border-radius:0px 0px 9px 9px;
+}
+
+.checks-ul li button{
+	width:100%;
+	height:50px;
+	border-radius:9px;
+	margin:10px 0px;
+	border:0px;
+	background-color:#D80450;
+	color:#fff;
+}
+
+.checkout-price{
+	padding:0px;
+	box-sizing: border-box;
+	list-style:none;
+}
+
+.checkout-price li{
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+    padding:5px 0px;
+}
+
+
+
+/*--------listing-reviews---------*/
+.listing-reviews{
+	border:0px solid green;
+}
+
+.listing-reviews section aside h4{
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+}
+
+.listing-reviews aside ul{
+	padding:0px;
+	box-sizing: border-box;
+	list-style: none
+}
+
+.listing-reviews aside ul li{
+   padding:10px 0px;
+   box-sizing: border-box;
+   font-size:16px;
+   font-weight:bold;
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/*------hosted-by-------*/
+.hosted-by{
+	border:0px solid green;
+}
+
+.hosted-by div section aside img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.hosted-by div section+ul{
+	padding:0px;
+	list-style: none;
+}
+
+.hosted-by div section+ul li{
+	margin:10px 10px;
+	font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+}
+
+.host-button{
+	border:1px solid #282828;
+	background-color:#fff;
+	border-radius:9px;
+	padding:15px 20px;
+	color:#282828;
+	text-transform: capitalize;
+	font-weight:bold;
+	font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*===========Payment/Listting/Reservations Chaincity Dashboard==================*/
+.payments section{
+	border:0px solid green;
+}
+
+.payments section h3{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.payments section h3 button{
+	 background-color:#D80450;
+	 color:#fff;
+	 border:0px;
+	 border-radius:6px
+}
+
+.payments section ul{
+	padding:0px;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+
+/*--justify content disable on media screen----*/
+@media screen and (min-width:880px){
+	.payments section aside{
+		display:flex;
+		justify-content:flex-end;
+	}
+}
+
+.payments section aside button{
+	/*width:200px;*/
+    font-weight:bold;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    margin:0px 5px;
+    padding:10px 15px;
+    box-sizing: border-box;
+    border:1px solid gray;
+    background-color:#fff;
+    color:#D80450;
+    border-radius:6px;
+}
+
+.payments section aside button:focus{
+	background-color:#D80450;
+	color:#fff; 
+	border:0px;
+}
+
+
+#filterInput,.input-group-text{
+	border:1px solid gray;
+	background-color:#fff !important
+}
+
+
+/*==============Checkout Page=========*/
+.checkout{
+	height:100vh;
+	border:0px solid green;
+	margin:50px 0px;
+	background-image: url('../asset/payhighlight.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100% 100%;
+}
+
+@media screen and (max-width:850px){
+	.checkout{
+	   height:auto;
+	   background-size:100% 50%;
+	}
+}
+
+.checkout div section{
+	border:1px solid gray;
+	margin:20px 20px;
+	padding:20px;
+	box-sizing: border-box;
+	border-radius:9px;
+}
+
+.checkout div section h2{
+	font-size:20px;
+}
+
+.checkout div section ul{
+	padding:0px;
+	list-style: none;
+	margin:40px 0px 0px 0px
+}
+
+.checkout div section ul li{
+	font-size:18px;
+	padding:7px;
+	box-sizing: border-box;
+	border-bottom:0px solid gray
+}
+
+.crypto-pay li img{
+	width:30px;
+	height:30px;
+}
+
+/*--float md small screen--*/
+@media screen and (max-width:350px){
+	.checkout div section ul li{
+		float:left !important;
+	}
+}
+
+.checkout div section ul li span{
+	font-weight: bold;
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkout div section button{
+	width:100%;
+	height:50px;
+	border:0px;
+	background-color:#D80450;
+	color:#fff;
+	border-radius:9px;
+	font-weight: bold;
+}
+
+
+/*====================TESTIFY==================*/
+.Testify{
+	border:0px solid green;
+}
+
+.Testify h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Testify div section{
+	border:0px solid blue;
+	background-color:#fbfefe;
+	box-shadow: 1px 3px 5px gray;
+	border-radius:9px
+}
+
+.Testify div section aside img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+
+.Testify div section aside div{
+	width: 100%;
+}
+
+.Testify div section h5{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.Testify div section aside div h5{
+	font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+/*================Profile Page==============*/
+.profile-button{
+	color:#fff;
+	background-color:#D80450;
+	border-radius:9px;
+	padding:15px 20px;
+	text-transform: capitalize;
+	font-weight:bold;
+	font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+   border:0px;
+}
+
+
+/*============Hosting============*/
+.resource-hosting{
+	border:0px solid green;
+}
+
+
+.resource-hosting div section{
+	border:0px solid green;
+	height:200px
+}
+
+.resource-hosting div section div img{
+	width:200px;
+	height:100px;
+	border-radius:9px
+}
+
+
+/*=========earnings==========*/
+.earnings{
+	border:0px solid green;
+}
+
+
+/*=========New listing===========*/
+.step-1-listing{
+	border:0px solid green;
+}
+
+.step-1-listing section aside{
+	border-bottom:1px solid gray;
+}
+
+/*---listing two---*/
+.step-2-listing{
+	border:0px solid green;
+}
+
+.step-2-listing section{
+	border:0px solid green;
+	margin:10% 0px 0px 0px;
+}
+
+/*-----listing button------*/
+.listing-button{
+	color:#fff;
+	background-color:#D80450;
+	border-radius:6px;
+	padding:10px 13px;
+	text-transform: capitalize;
+	font-weight:bold;
+	font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+   border:0px;
+}
+
+.listing-button-outline{
+	border:1px solid #282828;
+	background-color:#fff;
+	border-radius:6px;
+	padding:10px 13px;
+	color:#282828;
+	text-transform: capitalize;
+	font-weight:bold;
+	font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Poppins', sans-serif;
+}
+
+/*--radio button style*/
+.radio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.step-4-listing section label {
+  display: inline-block;
+  padding:20px 15px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin:10px;
+}
+
+label h3,label p{
+	text-align:left !important;
+}
+
+input[type="radio"]:checked + label,input[type="checkbox"]:checked + label {
+  background-color: #dedfde;
+  border-color: #000;
+}
+
+/*--section text area--*/
+.step-2-listing section textarea{
+	border:1px solid gray;
+	border-radius:12px;
+	height:100px;
+	resize:none;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.step-2-listing section textarea:focus{
+	border:1px solid gray;
+	outline:0px;
+}
+
+
+
+
+
+
+/*---more about ur place----*/
+.basics-place div{
+	border-bottom:1px solid gray;
+	padding:20px 0px;
+}
+
+.basics-place div aside span{
+   font-size:20px;
+}
+
+.basics-place div aside button{
+	width:30px;
+	height:30px;
+	border-radius:6px;
+	border:1px solid gray;
+	background-color:#fff
+}
+
+.step-4-listing section aside input{
+	width:100%;
+	height:100px;
+	font-size:100px;
+	color:gray;
+	border:0px;
+	appearance: textfield;
+   -moz-appearance: textfield;
+   -webkit-appearance: textfield;
+   appearance: textfield;
+}
+
+.step-4-listing section aside input{
+   font-size:60px;
+   color:gray;
+}
+
+
+.step-4-listing section aside input:focus{
+	outline:0px
+}
+
+
+
+
+
+/*================Footer======================*/
+
+.footer section aside{
+	border:0px solid green;
+}
+
+.footer section ul{
+	text-align: center !important;
+	list-style-type: none;
+	padding:0px !important
+}
+
+.footer section ul li{
+	display:inline-block;
+}
+
+.footer section ul li i,.footer section ul li{
+	color:#D80450 !important;
+	font-size:15px !important
+}

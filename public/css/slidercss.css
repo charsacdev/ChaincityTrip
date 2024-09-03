@@ -1,0 +1,93 @@
+/*===============CSS SLIDER=====================*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Poppins:wght@300&display=swap');
+
+
+/*--------------------------BUILDING SLIDER------------------------------*/
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+
+.swiper {
+      width: 100%;
+      height:540px;
+      margin-left: auto;
+      margin-right: auto;
+      border:0px solid red;
+  }
+
+    .swiper-slide {
+      text-align:left;
+      font-size: 18px;
+      background: #fff;
+      width:300px !important;
+      height:400px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:9px;
+      padding:10px;
+      box-sizing: border-box;
+      box-shadow: 1px 3px 10px gray;
+      position: relative;
+    }
+
+    .swiper-slide img{
+      width:100%;
+      height:250px;
+      border-radius:9px
+    }
+
+    .swiper-slide aside{
+       position: absolute;
+       bottom:0px;
+       left:0px;
+       right:0px;
+    }
+
+    .swiper-slide aside h5{
+      font-family: 'IBM Plex Mono', monospace;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size:14px !important;
+       padding:10px;
+      box-sizing: border-box;
+    }
+
+    .swiper-slide aside p{
+      width:100% !important;
+      font-size:13px;
+      color:gray;
+      border:0px solid green;
+      padding:10px;
+      box-sizing: border-box;
+    }
+
+
+    /*-----------------------------------TESTIMONEY SLIDER----------------------------------*/
+
+    .swiper2 {
+      width: 100%;
+      height:540px;
+      margin-left: auto;
+      margin-right: auto;
+      border:1px solid red;
+  }
+
+    .swiper-slide2 {
+      text-align:left;
+      font-size: 18px;
+      background: #fff;
+      width:300px !important;
+      height:400px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius:9px;
+      padding:10px;
+      box-sizing: border-box;
+      box-shadow: 1px 3px 10px gray;
+      position: relative;
+    }
